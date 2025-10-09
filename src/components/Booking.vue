@@ -8,22 +8,9 @@
         <!-- Calendly inline widget -->
         <div 
           class="calendly-inline-widget" 
-          data-url="https://calendly.com/blessingmba3"
+          data-url="https://calendly.com/pamfection1"
           style="min-width:320px;height:700px;"
         ></div>
-      </div>
-      
-      <div class="payment-section">
-        <h3>Secure Your Appointment</h3>
-        <p>A £20 deposit is required to confirm your booking</p>
-        
-        <div class="payment-options">
-          <button id="stripe-button" class="stripe-button">
-            Pay Deposit Now
-          </button>
-        </div>
-        
-        <div id="payment-message" class="payment-message"></div>
       </div>
       
       <div class="whatsapp-follow-up">
@@ -60,12 +47,6 @@
 <script>
 export default {
   name: 'Booking',
-  data() {
-    return {
-      stripe: null,
-      isPaymentProcessing: false
-    }
-  },
   mounted() {
     // Load the Calendly script
     const head = document.querySelector('head');
@@ -74,64 +55,9 @@ export default {
     script.src = 'https://assets.calendly.com/assets/external/widget.js';
     script.async = true;
     head.appendChild(script);
-    
-    // Load Stripe.js
-    this.loadStripe();
-  },
-  methods: {
-    async loadStripe() {
-      // Load the Stripe.js script
-      const stripeScript = document.createElement('script');
-      stripeScript.src = 'https://js.stripe.com/v3/';
-      stripeScript.async = true;
-      document.head.appendChild(stripeScript);
-      
-      stripeScript.onload = () => {
-        // Initialize Stripe with your publishable key
-        this.stripe = Stripe('pk_test_51SFEeJRpBOUpSboyNyBOpSaAI48DiDr8TJEmxpuvnx8FmHy35Jh12IyQEpVN4HcJSgr90oBogCex1vQIyAdF9FW500VCL3qNJ2');
-        
-        // Set up payment buttons
-        document.getElementById('stripe-button').addEventListener('click', this.redirectToCheckout);
-      };
-    },
-    
-    async redirectToCheckout() {
-      if (this.isPaymentProcessing) return;
-      this.isPaymentProcessing = true;
-      
-      const messageElement = document.getElementById('payment-message');
-      messageElement.textContent = "Redirecting to secure payment page...";
-      
-      try {
-        // Redirect to Stripe Checkout
-        const { error } = await this.stripe.redirectToCheckout({
-          lineItems: [
-            {
-              price: 'price_1SFF4mRpBOUpSboyvkd6j7lA', // Replace with your actual Price ID from Stripe Dashboard
-              quantity: 1,
-            },
-          ],
-          mode: 'payment',
-          successUrl: window.location.origin + '?payment=success',
-          cancelUrl: window.location.origin + '?payment=cancelled',
-        });
-        
-        if (error) {
-          messageElement.textContent = error.message;
-          messageElement.style.color = "#df1b41";
-        }
-      } catch (e) {
-        messageElement.textContent = "An error occurred. Please try again.";
-        messageElement.style.color = "#df1b41";
-        console.error(e);
-      }
-      
-      this.isPaymentProcessing = false;
-    }
   }
 }
 </script>
-
 <style scoped>
 .booking-container {
   padding: 5rem 2rem;

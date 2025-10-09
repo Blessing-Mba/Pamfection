@@ -10,7 +10,7 @@ import headerImage from './assets/pam-header.jpg';
 import { onMounted, ref } from 'vue';
 
 const openCalendly = () => {
-  window.open('https://calendly.com/blessingmba3', '_blank');
+  window.open('https://calendly.com/pamfection1', '_blank');
 };
 
 const titleText = ref('');

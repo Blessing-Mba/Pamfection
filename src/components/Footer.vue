@@ -4,7 +4,7 @@
       <div class="footer-section">
         <h3>Contact Us</h3>
         <p>📍United Kingdom</p>
-        <p>📞 </p>
+        <p>📞 +44 7466 351407 </p>
         <p>✉️ Pamfection1@gmail.com</p>
       </div>
       <div class="footer-section">
