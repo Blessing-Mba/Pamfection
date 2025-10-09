@@ -18,7 +18,7 @@
             <i class="fab fa-tiktok"></i>
           </a>
           
-          <a href="https://wa.me/234" target="_blank" rel="noopener noreferrer" class="social-link">
+          <a href="https://wa.me/447466351407" target="_blank" rel="noopener noreferrer" class="social-link">
             <i class="fab fa-whatsapp"></i>
           </a>
         </div>
