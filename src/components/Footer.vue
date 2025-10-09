@@ -27,7 +27,7 @@
         <h3>Business Hours</h3>
         <p>Monday - Friday: 08:00am - 18:00pm </p>
         <p>Saturday: 09:00am - 19:00pm </p>
-        <p>Sunday: 13:00pm -18:00pm </p>
+        <p>Sunday: 13:00pm - 18:00pm </p>
       </div>
     </div>
     <div class="footer-bottom">
