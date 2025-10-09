@@ -196,7 +196,7 @@ export default {
   gap: 0.8rem;
   padding: 0.8rem 1.5rem;
   background-color: #25D366;
-  color: white;
+  color: #000;
   border-radius: 50px;
   text-decoration: none;
   font-weight: 500;
