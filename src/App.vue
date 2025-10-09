@@ -206,6 +206,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   gap: 2.5rem;
+  
 }
 
 .text-content {
@@ -345,7 +346,7 @@ html, body {
 }
 .hero-content p {
   font-size: 1.5rem;
-  color: #666;
+  color: #000;
   margin-bottom: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
@@ -480,7 +481,7 @@ html, body {
 
 .intro-content h2 {
   font-size: 2.8rem;
-  color: #333;
+  color: #000;
   margin-bottom: 3rem;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -529,14 +530,14 @@ html, body {
 
 .offering-card h3 {
   font-size: 1.8rem;
-  color: #333;
+  color: #000;
   margin-bottom: 1rem;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
 }
 
 .offering-card p {
-  color: #666;
+  color: #000;
   line-height: 1.8;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -601,7 +602,7 @@ html, body {
 }
 
 .service-name {
-  color: #555;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
 }

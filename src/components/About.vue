@@ -54,7 +54,7 @@ export default {
 
 .about-content h2 {
   font-size: 2.8rem;
-  color: #333;
+  color: #000;
   margin-bottom: 2rem;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -83,7 +83,7 @@ export default {
   margin-bottom: 1.5rem;
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #555;
+  color: #000;
 }
 
 .about-values {

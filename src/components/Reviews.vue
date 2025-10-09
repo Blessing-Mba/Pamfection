@@ -64,7 +64,7 @@
 
 .review-header h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #000;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
 }

@@ -106,7 +106,7 @@
 
 .menu-section h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #000;
   text-align: center;
   font-family: 'Playfair Display', serif;
   margin-bottom: 1rem;
@@ -114,7 +114,7 @@
 
 .section-description {
   text-align: center;
-  color: #666;
+  color: #000;
   font-size: 1.2rem;
   margin-bottom: 3rem;
   font-family: 'Open Sans', sans-serif;
@@ -204,7 +204,7 @@
 }
 
 .item-details p {
-  color: #666;
+  color: #000;
   font-size: 0.9rem;
   font-family: 'Open Sans', sans-serif;
 }

@@ -72,7 +72,7 @@ export default {
 
 .booking-content h2 {
   font-size: 2.8rem;
-  color: #333;
+  color: #000;
   margin-bottom: 1.5rem;
   font-family: 'Playfair Display', serif;
   font-weight: 600;
@@ -97,7 +97,7 @@ export default {
   margin: 0 auto 3rem;
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #555;
+  color: #000;
 }
 
 .calendly-container {
