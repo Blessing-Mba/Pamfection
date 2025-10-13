@@ -615,5 +615,38 @@ html, body {
   .service-item {
     margin-bottom: 0.6rem;
   }
+ se  
+  /* Styles for the unavailable service notice */
+  .service-unavailable {
+    background-color: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 0.75rem;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .unavailable-icon {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+  
+  .unavailable-text {
+    color: #856404;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 768px) {
+    .service-unavailable {
+      padding: 0.5rem;
+    }
+    
+    .unavailable-text {
+      font-size: 0.8rem;
+    }
+  }
 }
 </style>
