@@ -71,6 +71,49 @@
       </div>
     </div>
 
+    
+
+    <div class="menu-section makeup-section">
+      <h2>Makeup Services</h2>
+      <p class="section-description">Professional makeup artistry that enhances your natural beauty and creates stunning looks for any occasion.</p>
+      
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="../assets/makeup-img1-removebg-preview.png" alt="Full Face Glam" />
+            <div class="overlay">
+              
+            </div>
+          </div>
+          <div class="item-details">
+            
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="../assets/makeup-img2-removebg-preview.png" alt="Bridal Makeup" />
+            <div class="overlay">
+              
+            </div>
+          </div>
+          <div class="item-details">
+            
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-image">
+            <img src="../assets/makeup-img3-removebg-preview.png" alt="Natural/Soft Glam" />
+            <div class="overlay">
+              
+            </div>
+          </div>
+          <div class="item-details">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="menu-section birthday-cakes">
       <h2>Hair Installation</h2>
       <p class="section-description">Flawless hair installations that blend seamlessly, boost confidence, and turn heads every time.</p>

@@ -6,7 +6,7 @@ import Reviews from './components/Reviews.vue';
 import Contact from './components/Contact.vue';
 import Booking from './components/Booking.vue';
 import Footer from './components/Footer.vue';
-import headerImage from './assets/pam-header.jpg';
+import headerImage from './assets/pam-header1.jpg';
 import { onMounted, ref } from 'vue';
 
 const openCalendly = () => {
@@ -343,6 +343,7 @@ html, body {
 .text-content h1{
   font-size: 48px;
   color: #000;
+  margin-top: 7rem;
 }
 .hero-content p {
   font-size: 1.5rem;
